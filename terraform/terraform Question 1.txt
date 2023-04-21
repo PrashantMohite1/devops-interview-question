@@ -1,0 +1,38 @@
+
+
+when terraform run a statefile is created right then , so what do you do that state file where it you can store it and find it 
+
+
+let say you some how loose that state file then how to resolve that issue - 3:00
+ --> terraform import 
+
+tell me about terraform validate - is used to validate syntax of terraform 
+
+lifecycle  in terraform - life cycle is a nested block that appears within a resource block
+
+we have 20 resource everything working fine on aws but we just have to destroy one resource 
+--> command -: terraform destroy -target resourcetype.resourcename
+
+***
+what are the different kinds of modules in terraform - root module , child module and publish module 
+
+
+*** remote backend in terraform
+
+
+how do we provide variable value at runtime 
+--. so usually we store our variable in var.tf file 
+    for providing variable at run time we need to remove first that variable from our default var.tf file 
+
+
+** what is terraform Workspace 
+
+drawback of terraform - no error handling in terraform , only one HCL lang we can use , terraform does not supports script generation 
+
+
+
+
+
+
+
+
